@@ -61,16 +61,16 @@
             <div class="card">
 
               <div class="view overlay">
-                {% comment %} <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top" 
-                <img src="{{ item.image.url }}" class="card-img-top">
-                <a href="{{ item.get_absolute_url }}">{% endcomment %}
+              {% comment %}  <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/12.jpg" class="card-img-top" >{% endcomment %}
+                 <img src="{{ item.image.url }}" class="card-img-top">
+               {% comment %} <a href="{{ item.get_absolute_url }}">{% endcomment %}
                   <div class="mask rgba-white-slight"></div>
                 </a>
               </div>
 
-              <div class="card-body text-center">s
+              <div class="card-body text-center">
                 <a href="" class="grey-text">
-              {% comment %}    <h5>{{ item.get_category_display }}</h5> {% endcomment %}
+                  <h5>{{ item.get_category_display }}</h5> 
                 </a>
                 <h5>
                   <strong>
